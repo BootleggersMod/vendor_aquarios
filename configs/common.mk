@@ -33,7 +33,6 @@ PRODUCT_PACKAGES += \
     ThemeInterfacer \
     Substratum \
     OmniStyle \
-    LockClock \
     OmniJaws
 
 # DU Utils Library
@@ -74,3 +73,6 @@ PRODUCT_COPY_FILES += \
 
 # Add fingerprints
 -include vendor/aquarios/configs/aquarios_fingerprints.mk
+
+# Import Shishu stuff
+-include vendor/bootleggers/booty.mk
